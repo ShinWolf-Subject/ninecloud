@@ -1,0 +1,24 @@
+{
+  "header": {
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "description": "§bCustom Capes By §6BionicBen1218",
+    "name": "§cCustom Capes Skin Pack",
+    "uuid": "d0be3a6b-b0d7-4e06-81a2-d23c33d404ba"
+  },
+  "modules": [
+    {
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "type": "skin_pack",
+      "uuid": "018052cb-868c-4074-99cb-299afee712cd"
+    }
+  ],
+  "format_version": 1
+}
