@@ -1,0 +1,75 @@
+:root {
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.2);
+}
+
+/* Deskripsi Box */
+.description-box {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #222;
+  color: #eee;
+  border-radius: 15px;
+  line-height: 1.6;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Tombol Next Page (Card Style) */
+.next-box {
+  display: block;
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  text-decoration: none;
+  background-color: #333;
+  border: 2px solid #555;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+.next-box:hover {
+  background-color: #444;
+  transform: translateY(-3px);
+}
+
+.box-content h2 {
+  margin-top: 0;
+}
+
+.box-content p {
+  margin: 0;
+  font-size: 15px;
+}
+
+/* Footer Style Glass */
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 2rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.9rem;
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  border: 1px solid var(--glass-border);
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer hr {
+  border: 1px solid #fd0000;
+  margin: 10px auto;
+  width: 80%;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #111;
+  color: white;
+}
